@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZenFit Yoga Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ZenFit</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#classes">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#instructors">Instructors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content text-white text-center">
+            <h1 class="display-3 font-weight-bold mb-4">Find Your Inner Balance</h1>
+            <p class="lead mb-5">Join our community and transform your mind, body, and soul through the power of yoga</p>
+            <button class="btn btn-primary btn-lg mr-3 px-4 py-2">Join Now</button>
+            <button class="btn btn-outline-light btn-lg px-4 py-2">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="mb-3">Our Classes</h2>
+                <p class="lead text-muted">Find the perfect class for your wellness journey</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/3823039/pexels-photo-3823039.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Hatha Yoga</h5>
+                            <p class="card-text">A gentle introduction to the most basic yoga postures. Perfect for beginners and those looking for a more relaxed practice.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">60 minutes</small>
+                                <small class="text-muted">All levels</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/4056535/pexels-photo-4056535.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Vinyasa Flow</h5>
+                            <p class="card-text">A dynamic practice that connects breath with movement. Build strength, flexibility and focus in this flowing sequence.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">75 minutes</small>
+                                <small class="text-muted">Intermediate</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/3822674/pexels-photo-3822674.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Power Yoga</h5>
+                            <p class="card-text">An intense workout that builds strength, flexibility and stamina. Challenge yourself with this advanced practice.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">90 minutes</small>
+                                <small class="text-muted">Advanced</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/3759657/pexels-photo-3759657.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Meditation</h5>
+                            <p class="card-text">Learn techniques to quiet the mind, reduce stress, and increase awareness in our guided meditation sessions.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">45 minutes</small>
+                                <small class="text-muted">All levels</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/3984341/pexels-photo-3984341.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Restorative Yoga</h5>
+                            <p class="card-text">A relaxing practice that uses props to support the body in gentle poses, promoting deep relaxation and healing.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">60 minutes</small>
+                                <small class="text-muted">All levels</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="class-card card">
+                        <img src="https://images.pexels.com/photos/4662438/pexels-photo-4662438.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Yoga Class">
+                        <div class="card-body">
+                            <h5 class="card-title">Pilates</h5>
+                            <p class="card-text">Strengthen your core and improve posture with controlled movements that enhance balance and coordination.</p>
+                            <div class="d-flex justify-content-between">
+                                <small class="text-muted">60 minutes</small>
+                                <small class="text-muted">Intermediate</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary btn-lg">View Schedule</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section id="instructors" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="mb-3">Our Instructors</h2>
+                <p class="lead text-muted">Meet our experienced and passionate yoga teachers</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="instructor">
+                        <img src="https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Instructor">
+                        <h5>Emma Wilson</h5>
+                        <p class="text-muted">Hatha & Vinyasa</p>
+                        <p class="small">Emma has been practicing yoga for over 10 years and teaching for 6. Her classes focus on alignment and mindfulness.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="instructor">
+                        <img src="https://images.pexels.com/photos/4057838/pexels-photo-4057838.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Instructor">
+                        <h5>David Chen</h5>
+                        <p class="text-muted">Power Yoga</p>
+                        <p class="small">David brings dynamic energy to his power yoga classes, helping students build strength and confidence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="instructor">
+                        <img src="https://images.pexels.com/photos/7991692/pexels-photo-7991692.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Instructor">
+                        <h5>Sarah Johnson</h5>
+                        <p class="text-muted">Meditation & Restorative</p>
+                        <p class="small">Sarah specializes in meditation and restorative practices that promote healing and deep relaxation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="instructor">
+                        <img src="https://images.pexels.com/photos/8436625/pexels-photo-8436625.jpeg?auto=compress&cs=tinysrgb&w=300" alt="Instructor">
+                        <h5>Michael Roberts</h5>
+                        <p class="text-muted">Pilates & Yoga</p>
+                        <p class="small">Michael combines the principles of Pilates with yoga to create classes that improve core strength and flexibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="mb-3">Membership Options</h2>
+                <p class="lead text-muted">Find the perfect plan for your practice</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <h4>Basic</h4>
+                        <div class="price">$79<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li class="py-2">Unlimited yoga classes</li>
+                            <li class="py-2">Online booking</li>
+                            <li class="py-2">1 workshop per month</li>
+                            <li class="py-2 text-muted">Personal instructor</li>
+                            <li class="py-2 text-muted">Premium content</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <div class="badge badge-primary position-absolute" style="top: 15px; right: 15px;">Popular</div>
+                        <h4>Premium</h4>
+                        <div class="price">$129<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li class="py-2">Unlimited yoga classes</li>
+                            <li class="py-2">Online booking</li>
+                            <li class="py-2">3 workshops per month</li>
+                            <li class="py-2">Personal instructor</li>
+                            <li class="py-2 text-muted">Premium content</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="pricing-card">
+                        <h4>Ultimate</h4>
+                        <div class="price">$179<small>/month</small></div>
+                        <ul class="list-unstyled">
+                            <li class="py-2">Unlimited yoga classes</li>
+                            <li class="py-2">Online booking</li>
+                            <li class="py-2">All workshops</li>
+                            <li class="py-2">Personal instructor</li>
+                            <li class="py-2">Premium content</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary btn-block">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="text-muted">Not ready to commit? Try our drop-in option for $20 per class</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="mb-3">What Our Members Say</h2>
+                <p class="lead text-muted">Discover the impact ZenFit has made on our community</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Client" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Jennifer Lewis</h5>
+                                <small class="text-muted">Member for 2 years</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"ZenFit has completely transformed my life. The instructors are amazing and I've never felt better physically and mentally. The studio has become my sanctuary after a long day at work."</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Client" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Thomas Reed</h5>
+                                <small class="text-muted">Member for 1 year</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"I was skeptical about yoga at first, but ZenFit changed my mind. The classes are challenging yet accessible, and I've seen remarkable improvements in my flexibility and stress levels."</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Client" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">Lisa Wang</h5>
+                                <small class="text-muted">Member for 3 years</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"The restorative yoga classes at ZenFit have been a game-changer for my recovery after running marathons. The instructors are knowledgeable and attentive to everyone's needs."</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Client" class="testimonial-img">
+                            <div>
+                                <h5 class="mb-0">James Wilson</h5>
+                                <small class="text-muted">Member for 6 months</small>
+                            </div>
+                        </div>
+                        <p class="mb-0">"I joined ZenFit to improve my flexibility for other sports, but I've gained so much more. The community is supportive, and the variety of classes keeps me engaged and excited to practice."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <h2 class="mb-4">Get In Touch</h2>
+                    <p class="mb-4">Have questions about our classes or membership options? Contact us today and start your wellness journey.</p>
+                    <div class="mb-3">
+                        <h5>Address</h5>
+                        <p class="text-muted">123 Zen Street, Wellness City, WC 10001</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Phone</h5>
+                        <p class="text-muted">(123) 456-7890</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Email</h5>
+                        <p class="text-muted">Volkan.Can@my-aolcc.com</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Follow Us</h5>
+                        <div class="mt-3">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">Send us a message</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name">Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Your email">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Your message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <h5>ZenFit Yoga Studio</h5>
+                    <p class="mb-0">Finding balance through movement and breath.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="mb-0">© 2023 ZenFit Studio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
